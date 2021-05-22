@@ -1,0 +1,40 @@
+:root{
+--light: #f0e3ca;
+--biege: #ff8303;
+--tan: #a35709;
+--black: #1b1a17;
+}
+body{
+background-color: var(--light);
+}
+.navbar-text{
+font-size:50px;
+color: var(--tan);
+padding-left: 40px;
+}
+.concrete_photo{
+height: 400px;
+width: 100%;
+border: solid;
+}
+.homepage_link{
+display:inline;
+padding-right:20px;
+font-size:20px;
+color:(--biege)
+}
+.card_about{
+background-color: var(--black);
+}
+.card-body{
+color: var(--tan);
+}
+.About_title{
+text-align:center;
+color: var(--tan);
+}
+.foot{
+text-align:center;
+background-color: var(--tan);
+color: var(--light);
+}
