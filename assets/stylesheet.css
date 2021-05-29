@@ -1,27 +1,35 @@
 :root{
 --light: #f0e3ca;
---biege: #ff8303;
+--beige: #ff8303;
 --tan: #a35709;
 --black: #1b1a17;
+--maintext: 'Abril Fatface', cursive;
+--footertext: 'Cormorant Garamond', serif;
 }
 body{
 background-color: var(--light);
 }
 .navbar-text{
-font-size:50px;
+font-family: var(--maintext);
+font-size:60px;
 color: var(--tan);
 padding-left: 40px;
 }
-.concrete_photo{
-height: 400px;
-width: 100%;
-border: solid;
+.Title{
+text-align: center;
+font-family: var(--maintext);
+font-size:40px;
+color: var(--tan);
+padding-left: 40px;
 }
 .homepage_link{
-display:inline;
+display:inline-block;
 padding-right:20px;
 font-size:20px;
 color:(--biege)
+}
+.MainImg{
+width:100%;
 }
 .card_about{
 background-color: var(--black);
@@ -29,12 +37,35 @@ background-color: var(--black);
 .card-body{
 color: var(--tan);
 }
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+.container {width:100%;max-width:none;padding:0;}
+.custom-card:{
+height:100px;
+}
 .About_title{
 text-align:center;
 color: var(--tan);
 }
+.contact{
+background-color:black;
+text-align:center;
+}
+.contact_info{
+color: var(--tan);
+font-family: var(--footertext);
+}
+small.text-muted{
+color: var(--tan);
+}
 .foot{
+font-size: 20px;
+font-family: var(--footertext);
 text-align:center;
 background-color: var(--tan);
 color: var(--light);
 }
+
